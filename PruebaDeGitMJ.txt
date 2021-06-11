@@ -1,1 +1,5 @@
-Prueba de testeo
+**Configurar llaves SSH en Git y GitHub**
+En nuestra consola de git bash(Windows) o nuestra consola (Linux) nos movemos a home, por que las llaves pueden ser para todos los proyectos en los que trabajemos.
+Luego generamos las llaves con ssh-keygen seguidos de los parámetros: -t aquí ponemos el algoritmo de encriptación que queremos en este caso ocuparemos la más común que es RSA, -b aquí vamos a especificar que tan compleja es la llave, seguido de -C aquí vamos a poner el email al que se va a configurar la llave.
+
+ssh-keygen -t rsa -b 4096 -C “tu_email@gmail.com”
